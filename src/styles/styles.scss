@@ -1,0 +1,21 @@
+// SETUP
+@import 'setup/typography';
+@import 'setup/variables';
+@import 'setup/mixins';
+@import 'setup/functions';
+
+// BASICS
+@import 'basics/helpers';
+@import 'basics/base';
+@import 'basics/layout';
+
+// COMPONENTS
+
+@import './components/AppFooter.scss';
+@import './components/TimerMode.scss';
+@import './components/Timer.scss';
+@import './components/PomodoroSettings.scss';
+
+//VIEWS
+
+@import './views/Pomodoro.scss';

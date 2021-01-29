@@ -1,0 +1,35 @@
+footer {
+	width: 100%;
+	grid-row: 2/3;
+}
+
+.site-footer-wrapper {
+	justify-self: center;
+	align-self: center;
+	width: 100%;
+	max-width: 300px;
+	border-top: 1px solid $dark-main;
+	.social-nav {
+		width: 100%;
+		.icon {
+			padding: 7px 10px;
+			transition: 0.2s ease;
+			cursor: pointer;
+			color: $dark-main;
+			filter: brightness(0.8);
+			font-size: 20px;
+			opacity: 0.9;
+		}
+		.icon:hover {
+			&.facebook {
+				color: #3b5998;
+			}
+			&.linkedin {
+				color: #007bb6;
+			}
+			&.github {
+				color: #6cc644;
+			}
+		}
+	}
+}

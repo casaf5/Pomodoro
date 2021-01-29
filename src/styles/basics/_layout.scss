@@ -1,0 +1,24 @@
+//MAIN-LAYOUT-HELPERS
+
+.site-main-layout {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 0.9fr 0.1fr;
+	height: 100vh;
+	width: 100vw;
+	background-color: $main;
+	overflow: hidden;
+}
+
+.pos-main-container {
+	grid-row: 1/2;
+}
+.grid-container {
+	display: grid;
+	grid-template-columns: 2rem auto 2rem;
+	grid-template-rows: 1fr;
+}
+
+.grid-pos-center {
+	grid-column: 2/3;
+}

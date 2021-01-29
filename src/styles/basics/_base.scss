@@ -1,0 +1,68 @@
+* {
+	box-sizing: border-box;
+	list-style: none;
+}
+
+html {
+	font-family: 'Kumbh Sans', sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	font-weight: bold;
+	@include breakpoint-tablet {
+		font-size: 12px;
+		line-height: 14px;
+	}
+}
+
+body {
+	margin: 0;
+	height: 100vh;
+	width: 100vw;
+}
+
+h1 {
+	font-size: rem(80px);
+	line-height: rem(120px);
+	letter-spacing: rem(5px);
+	margin: 5px 0;
+}
+h2 {
+	font-size: rem(28px);
+	line-height: rem(34px);
+	margin: 5px 0;
+}
+h3 {
+	font-size: rem(16px);
+	line-height: rem(19px);
+	letter-spacing: rem(15px);
+	text-transform: uppercase;
+	margin: 5px 0;
+}
+h4 {
+	font-size: rem(13px);
+	line-height: rem(16px);
+	letter-spacing: rem(5px);
+	text-transform: uppercase;
+	margin: 5px 0;
+}
+
+textarea {
+	resize: none;
+}
+
+button {
+	cursor: pointer;
+	outline: none;
+	border: none;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}

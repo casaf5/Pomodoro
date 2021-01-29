@@ -1,0 +1,32 @@
+.timer-wrapper {
+	width: rem(410px);
+	height: rem(410px);
+	border-radius: 50%;
+	margin: rem(45px) 0;
+	background: linear-gradient(315deg, #2e325a 0%, #0e112a 100%);
+	box-shadow: -0px -0px 10px #272c5a, 0px 0px 15px #121530, -10px -10px 30px #272c5a,
+		10px 10px 30px #121530;
+	.inner-circle {
+		width: rem(360px);
+		height: rem(360px);
+		border-radius: 50%;
+		background-color: $dark-main;
+		position: relative;
+		cursor: pointer;
+		.progress-ring {
+			position: absolute;
+			margin-top: 2px;
+			stroke-dasharray: 867;
+			transition: stroke-dashoffset 0.35s;
+			transform: rotate(135deg);
+			transform-origin: 50% 50%;
+		}
+		.time {
+			width: 100%;
+			height: 100%;
+			border-radius: 50%;
+			margin-left: 10px;
+			color: $white;
+		}
+	}
+}

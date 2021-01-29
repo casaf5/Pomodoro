@@ -1,0 +1,27 @@
+/* Media queries Breakpoint mixins */
+
+@mixin breakpoint-mobile {
+	@media (max-width: $break-mobile) {
+		@content;
+	}
+}
+
+@mixin breakpoint-tablet {
+	@media (max-width: $break-tablet) {
+		@content;
+	}
+}
+
+@mixin breakpoint-wide {
+	@media (max-width: $break-wide) {
+		@content;
+	}
+}
+
+@mixin breakpoint-extra-wide {
+	@media (min-width: $break-extra-wide) {
+		@content;
+	}
+}
+
+/* Media  Mixins */

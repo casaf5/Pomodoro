@@ -1,0 +1,22 @@
+.timer-mode-wrapper {
+	max-width: rem(400px);
+	height: rem(65px);
+	padding: rem(8px);
+	background-color: $dark-main;
+	border-radius: 32px;
+
+	button {
+		background-color: $dark-main;
+		color: $light-grey;
+		padding: rem(15px);
+		width: rem(160px);
+		border-radius: 26.5px;
+		font-size: rem(14px);
+		font-family: inherit;
+		text-align: center;
+		transition: 0.1s ease-in-out;
+		&.selected {
+			color: $dark-main;
+		}
+	}
+}

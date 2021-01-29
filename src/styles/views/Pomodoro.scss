@@ -1,0 +1,16 @@
+.pomodoro-wrapper {
+	max-width: 800px;
+	grid-row: 1/2;
+	justify-self: center;
+	.title {
+		color: $white;
+	}
+	.icon {
+		filter: brightness(0.8);
+		cursor: pointer;
+		transition: 0.2s ease-in-out;
+		&:hover {
+			filter: brightness(1.2);
+		}
+	}
+}
